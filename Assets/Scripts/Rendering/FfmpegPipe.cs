@@ -394,11 +394,25 @@ namespace TiltBrush
 
             try
             {
+#if UNITY_ANDROID
+                AndroidJavaClass configClass = new AndroidJavaClass("com.arthenica.ffmpegkit.FFmpegKitConfig");
+                AndroidJavaObject paramVal = new AndroidJavaClass("com.arthenica.ffmpegkit.Signal").GetStatic<AndroidJavaObject>("SIGXCPU");
+                configClass.CallStatic("ignoreSignal", new object[] { paramVal });
+
+                AndroidJavaClass javaClass = new AndroidJavaClass("com.arthenica.ffmpegkit.FFmpegKit");
+                AndroidJavaObject session = javaClass.CallStatic<AndroidJavaObject>("execute", new object[] { m_encoderProc.StartInfo.Arguments });
+
+                AndroidJavaObject returnCode = session.Call<AndroidJavaObject>("getReturnCode", new object[] {});
+                int rc = returnCode.Call<int>("getValue", new object[] {});
+
+                return rc == 0;
+#else
                 if (!m_encoderProc.Start())
                 {
                     UnityEngine.Debug.LogWarningFormat("Start returned false {0}", inputFile);
                     return false;
                 }
+#endif
             }
             catch (System.Exception e)
             {
