@@ -3315,6 +3315,22 @@ MonoBehaviour:
     m_Key: DirectoryChooserPopupButton
     m_Metadata:
       m_Items: []
+  - m_Id: 236439664547024896
+    m_Key: PAINTCHALLENGES_PANEL_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236439802359271424
+    m_Key: PAINTCHALLENGES_PANEL_EASY_BUTTON_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236439872139907072
+    m_Key: PAINTCHALLENGES_PANEL_MEDIUM_BUTTON_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236439948702732288
+    m_Key: PAINTCHALLENGES_PANEL_HARD_BUTTON_DESCRIPTION
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
