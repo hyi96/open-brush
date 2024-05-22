@@ -10100,9 +10100,9 @@ MonoBehaviour:
   m_ErrorDialog: {fileID: 115488, guid: f9847b7c9e1363e4c9f3b9cf2ccb4305, type: 3}
   m_OdsPrefab: {fileID: 1000011420475376, guid: ce507370586b20c4299d57d2d38ed641,
     type: 3}
-  m_IntroSketchFadeInDuration: 5
-  m_IntroSketchFadeOutDuration: 1.5
-  m_IntroSketchMobileFadeInDuration: 3
+  m_IntroSketchFadeInDuration: 2
+  m_IntroSketchFadeOutDuration: 2
+  m_IntroSketchMobileFadeInDuration: 2
   m_IntroSketchMobileFadeOutDuration: 2
   m_FrameCountDisplay: {fileID: 617891839}
   m_ShaderWarmup: {fileID: 2094189264}
@@ -29885,13 +29885,13 @@ MonoBehaviour:
     m_ModeQuest: 0
     m_Basic: 0
     m_Advanced: 1
-  - m_PanelPrefab: {fileID: 109932, guid: 11a71a8b70e19254abe00d5e569f428c, type: 3}
+  - m_PanelPrefab: {fileID: 109932, guid: fd79e75d61d45454ba706c986f2a5b61, type: 3}
     m_ModeVr: 1
     m_ModeMono: 1
     m_ModeQuest: 0
     m_Basic: 1
     m_Advanced: 1
-  - m_PanelPrefab: {fileID: 8342536447398316161, guid: 16ea55ab72c703c449db50dfbaffc5f5,
+  - m_PanelPrefab: {fileID: 638570770369714353, guid: 4ce9ea1ba333eda4cbb1f7e46f2db0db,
       type: 3}
     m_ModeVr: 0
     m_ModeMono: 0
@@ -29924,6 +29924,12 @@ MonoBehaviour:
     m_Basic: 0
     m_Advanced: 1
   - m_PanelPrefab: {fileID: 159900, guid: c5747cd6fc6d92b4b941d58d649877ef, type: 3}
+    m_ModeVr: 1
+    m_ModeMono: 1
+    m_ModeQuest: 1
+    m_Basic: 0
+    m_Advanced: 1
+  - m_PanelPrefab: {fileID: 162374, guid: 1cb57c13fa6b529488ff10d4d47cd359, type: 3}
     m_ModeVr: 1
     m_ModeMono: 1
     m_ModeQuest: 1
@@ -30047,7 +30053,19 @@ MonoBehaviour:
     m_ModeQuest: 1
     m_Basic: 0
     m_Advanced: 1
-  - m_PanelPrefab: {fileID: 162374, guid: 1cb57c13fa6b529488ff10d4d47cd359, type: 3}
+  - m_PanelPrefab: {fileID: 199434, guid: 6dafd36d9488aba4a998d2ef69ea2553, type: 3}
+    m_ModeVr: 1
+    m_ModeMono: 1
+    m_ModeQuest: 1
+    m_Basic: 0
+    m_Advanced: 1
+  - m_PanelPrefab: {fileID: 176644, guid: d620d9effac3e6c4eaae746d85edf13c, type: 3}
+    m_ModeVr: 1
+    m_ModeMono: 1
+    m_ModeQuest: 1
+    m_Basic: 0
+    m_Advanced: 1
+  - m_PanelPrefab: {fileID: 160214, guid: 2b8f8dc5c7f70ba4eaf8f6a7181d8fc7, type: 3}
     m_ModeVr: 1
     m_ModeMono: 1
     m_ModeQuest: 1
