@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class VoidEventListener : MonoBehaviour
 {
-    [SerializeField] protected VoidEventChannelSO eventChannel;
+    public VoidEventChannelSO eventChannel;
 
     private void OnEnable()
     {

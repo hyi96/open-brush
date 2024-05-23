@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b66f4a9c92ca21946ade19d0e2624541, type: 3}
-  m_Name: HardChallengeSelectedEvent
+  m_Script: {fileID: 11500000, guid: b25356c72ac5a0b4aa5f6746864b0c78, type: 3}
+  m_Name: DefaultIntChannel
   m_EditorClassIdentifier: 
-  description: Hard Challenge Selected
+  description: int channel

@@ -15,8 +15,3 @@ public abstract class GenericEventRaiser<T> : MonoBehaviour
         eventChannel.RaiseEvent(param);
     }
 }
-
-public class IntEventRaiser : GenericEventRaiser<int> { }
-public class FLoatEventRaiser : GenericEventRaiser<float> { }
-public class TransformEventRaiser : GenericEventRaiser<Transform> { }
-public class BoolEventRaiser : GenericEventRaiser<bool> { }

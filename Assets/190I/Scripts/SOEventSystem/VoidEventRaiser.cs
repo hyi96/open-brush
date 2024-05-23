@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class VoidEventRaiser : MonoBehaviour
 {
-    [SerializeField] private VoidEventChannelSO eventChannel;
+    public VoidEventChannelSO eventChannel;
 
     public virtual void TriggerEvent()
     {

@@ -3331,6 +3331,10 @@ MonoBehaviour:
     m_Key: PAINTCHALLENGES_PANEL_HARD_BUTTON_DESCRIPTION
     m_Metadata:
       m_Items: []
+  - m_Id: 236841236460425216
+    m_Key: PAINTCHALLENGES_PANEL_DISPLAY_ALL
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
