@@ -7,6 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 171478400955324191, guid: 561c18ada8ac52d4d8bbba8b2c9fae11,
+        type: 3}
+      propertyPath: m_DescriptionText
+      value: PAINTCHALLENGES_PANEL_HARD_BUTTON_DESCRIPTION
+      objectReference: {fileID: 0}
+    - target: {fileID: 3583794645374144433, guid: 561c18ada8ac52d4d8bbba8b2c9fae11,
+        type: 3}
+      propertyPath: m_DescriptionText
+      value: PAINTCHALLENGES_PANEL_MEDIUM_BUTTON_DESCRIPTION
+      objectReference: {fileID: 0}
+    - target: {fileID: 4472287993076154326, guid: 561c18ada8ac52d4d8bbba8b2c9fae11,
+        type: 3}
+      propertyPath: m_DescriptionText
+      value: PAINTCHALLENGES_PANEL_DISPLAY_ALL
+      objectReference: {fileID: 0}
     - target: {fileID: 4751541655806487803, guid: 561c18ada8ac52d4d8bbba8b2c9fae11,
         type: 3}
       propertyPath: m_RootOrder
@@ -66,6 +81,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SketchChallengePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452341112360586572, guid: 561c18ada8ac52d4d8bbba8b2c9fae11,
+        type: 3}
+      propertyPath: m_DescriptionText
+      value: PAINTCHALLENGES_PANEL_EASY_BUTTON_DESCRIPTION
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 561c18ada8ac52d4d8bbba8b2c9fae11, type: 3}

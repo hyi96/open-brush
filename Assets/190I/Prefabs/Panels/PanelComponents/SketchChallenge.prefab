@@ -666,6 +666,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8697217583691440395, guid: 27aadc6d0991c0444a4f819c1d2adc62,
+        type: 3}
+      propertyPath: m_DescriptionText
+      value: PAINTCHALLENGES_PANEL_MEDIUM_BUTTON_DESCRIPTION
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27aadc6d0991c0444a4f819c1d2adc62, type: 3}
 --- !u!4 &8093194223651852724 stripped
@@ -746,6 +751,11 @@ PrefabInstance:
       propertyPath: m_ButtonTexture
       value: 
       objectReference: {fileID: 2800000, guid: 3a42789dca089684c99bb14589f86e73, type: 3}
+    - target: {fileID: 4532988989642518442, guid: 0d34970e5a8fa2c41a770f6288233eb9,
+        type: 3}
+      propertyPath: m_DescriptionText
+      value: PAINTCHALLENGES_PANEL_EASY_BUTTON_DESCRIPTION
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d34970e5a8fa2c41a770f6288233eb9, type: 3}
 --- !u!4 &5645679735911553054 stripped
@@ -877,7 +887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DescriptionType: 0
   m_DescriptionYOffset: 0
-  m_DescriptionText: 
+  m_DescriptionText: PAINTCHALLENGES_PANEL_DISPLAY_ALL
   m_LocalizedDescription:
     m_TableReference:
       m_TableCollectionName: GUID:c84355079ab3f3e4f8f3812258805f86
@@ -978,6 +988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9181620955794100388, guid: 065085eff42b1334a921c9b8b7effccd,
+        type: 3}
+      propertyPath: m_DescriptionText
+      value: PAINTCHALLENGES_PANEL_HARD_BUTTON_DESCRIPTION
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 065085eff42b1334a921c9b8b7effccd, type: 3}

@@ -29327,9 +29327,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventChannel: {fileID: 11400000, guid: b9171980be059bf42b68324a50e22484, type: 2}
   staticMeshPrefabs:
-  - {fileID: 3777693752856086619, guid: 7dbf81fb4bff8004ebd421b7fd0a76a9, type: 3}
-  - {fileID: 319635138683008095, guid: 944cbea8c943108469e94a3e6f1aed99, type: 3}
-  - {fileID: 8418363301627937859, guid: 7b6fc0b928805be408ea55713781bcc3, type: 3}
+  - {fileID: 3777693752856086619, guid: 26aee8b9504728742b6f77ebadac030f, type: 3}
+  - {fileID: 319635138683008095, guid: fc145a53c1dad0342805a02ec48b2933, type: 3}
+  - {fileID: 8418363301627937859, guid: 6c04046a29a1d2b4faa39c8ba84bda55, type: 3}
   spawned: {fileID: 0}
 --- !u!1 &1687766712
 GameObject:
