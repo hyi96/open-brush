@@ -37,7 +37,7 @@ Material:
     m_Floats:
     - _Cutoff: 0.5
     - _FrameWidth: 0
-    - _GridLineWidth: 0.003
+    - _GridLineWidth: 0.005
     - _GridSize: 0.05
     - _InvFade: 1
     - _ModeSwitch: 0
@@ -51,7 +51,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _FrontColor: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 0.5529412}
     - _InColor: {r: 0.05490196, g: 0.05490196, b: 0.05490196, a: 0.21568628}
-    - _LocalScale: {r: 4.09, g: 4.39, b: 1, a: 1}
+    - _LocalScale: {r: 5, g: 4.39, b: 1, a: 1}
     - _OutColor: {r: 0, g: 0.21176471, b: 0.21176471, a: 1}
     - _TintColor: {r: 0.27205884, g: 0.27205884, b: 0.27205884, a: 0.5019608}
   m_BuildTextureStacks: []
