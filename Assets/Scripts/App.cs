@@ -495,7 +495,7 @@ namespace TiltBrush
             Log($"SdkMode: {App.Config.m_SdkMode}.");
 
             // Begone, physics! You were using 0.3 - 1.3ms per frame on Quest!
-            Physics.autoSimulation = false;
+            Physics.autoSimulation = true;
 
             // See if this is the first time
             HasPlayedBefore = PlayerPrefs.GetInt(kPlayerPrefHasPlayedBefore, 0) == 1;

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2611433286628135562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8418363301627937859, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_Name
+      value: DogShaderWireframeMeshCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418363301627937859, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6299577
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00036285046
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00044733213
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.77662927
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196307002425843449, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 101.906
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c04046a29a1d2b4faa39c8ba84bda55, type: 3}
+--- !u!1 &5830371989183665865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8418363301627937859, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+    type: 3}
+  m_PrefabInstance: {fileID: 2611433286628135562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6450923859415271406
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830371989183665865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2355652494788829045, guid: dc01b89eae66c4a4aabd77ee6e8f66cf, type: 3}
+--- !u!114 &8861004395090940918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830371989183665865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e287e680a685e49a7e6d303e2ee0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventChannel: {fileID: 11400000, guid: 7ea717af98cbb6b48bf96f48b41ed62e, type: 2}
+  defaultParam: 0
