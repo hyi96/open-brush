@@ -74,6 +74,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 319635138683008095, guid: fc145a53c1dad0342805a02ec48b2933,
         type: 3}
+      propertyPath: m_TagString
+      value: ModelCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 319635138683008095, guid: fc145a53c1dad0342805a02ec48b2933,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -240,6 +245,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventChannel: {fileID: 11400000, guid: 7ea717af98cbb6b48bf96f48b41ed62e, type: 2}
   defaultParam: 0
+--- !u!1 &7211264159592675382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 319635138683008095, guid: fc145a53c1dad0342805a02ec48b2933,
+    type: 3}
+  m_PrefabInstance: {fileID: 6952463796714081385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8499478556095977458
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7211264159592675382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &7211264159991145911 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 319635139056314846, guid: fc145a53c1dad0342805a02ec48b2933,

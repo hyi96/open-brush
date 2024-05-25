@@ -14,6 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8418363301627937859, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
         type: 3}
+      propertyPath: m_TagString
+      value: ModelCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418363301627937859, guid: 6c04046a29a1d2b4faa39c8ba84bda55,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
